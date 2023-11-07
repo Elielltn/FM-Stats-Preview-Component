@@ -1,0 +1,114 @@
+:root{
+  --color-very-dark-blue: hsl(233, 47%, 7%);
+  --color-dark-desaturated-blue: hsl(244, 38%, 16%);
+  --color-soft-violet: hsl(277, 64%, 61%);
+  --color-white:  hsl(0, 0%, 100%);
+  --color-main-para-transparent-white-:  hsla(0, 0%, 100%, 0.75);
+  --color-stat-heading-transparent-white: hsla(0, 0%, 100%, 0.6);
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+}
+
+.container{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--color-very-dark-blue);
+}
+
+.content-wrap{
+  height: 446px;
+  width: 1080px;
+  background-color: var(--color-dark-desaturated-blue);
+  display: flex;
+  border-radius: 5px;
+}
+
+.text-container{
+  height: 446px;
+  width: 540px;
+  padding: 80px;
+}
+
+.main-header{
+  color: var(--color-white);
+  margin-bottom: 20px;
+}
+
+.main-para{
+  color: var(--color-main-para-transparent-white-);
+  margin-bottom: 50px;
+}
+
+.insights{
+  color: var(--color-soft-violet);
+}
+
+.img-hover{
+  height: 446px;
+  width: 540px;
+  background-color: hsl(277, 100%, 61%, 0.5);
+  position: absolute;
+}
+
+.img-container{
+  height: 446px;
+  width: 540px;
+}
+
+.img-header{
+  height: 100%;
+  width: 100%;
+}
+
+.stats{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 60px;
+}
+
+.stats-numb{
+  color: var(--color-white);
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}
+
+.companies{
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: var(--color-stat-heading-transparent-white);
+}
+
+.templates{
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: var(--color-stat-heading-transparent-white);
+}
+
+.queries{
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: var(--color-stat-heading-transparent-white);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
